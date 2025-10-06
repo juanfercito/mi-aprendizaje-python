@@ -18,10 +18,10 @@ En mi corto aprendizaje he podido darme cuenta de que el conocer los datos primi
 
 ### ❓¿Cómo se comportan frente a otros lenguajes de programación?
 
-En cada archivo incluyo notas que contrasten la implementación y uso de primitivos de Python frente a otros lenguajes(como ***Javascript***, ***PHP***, ***C***, etc). 
+En cada archivo incluiré notas que contrasten la implementación y uso de primitivos de Python frente a otros lenguajes(como ***Javascript***, ***PHP***, ***C***, etc). 
 Mi objetivo es poder entender y mostrar cómo aplico el código de Python en diversos contextos y compararlos con lenguajes populares ejecutando la misma acción, midiendo la capacidad de memoria para determinar en qué escenario es mejor o más eficiente uno o el otro.  
 
-> Nota: la comparación incluirá mediciones prácticas en Python y criterios para contrastarlas con resultados de otros lenguajes; no ejecutaremos mediciones externas desde este módulo introductorio — cada tema tendrá su propio ejercicio y guía de medición.
+> Nota: la comparación incluirá mediciones prácticas en Python y criterios para contrastarlas con resultados de otros lenguajes; no ejecutaré mediciones externas desde este módulo introductorio — cada tema tendrá su propio ejercicio y guía de medición.
 
 ---
 

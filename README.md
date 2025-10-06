@@ -20,7 +20,7 @@ Cada nivel es un directorio que contiene subcarpetas correspondientes a los tema
 
 ## ⚠️ IMPORTANTE!!
 
-Para quien lo revise, espero les sea de utilidad algo de mi aprendizaje, anticipándoles que este repositorio contiene solo mi aprendizaje y no es una guía definitiva, mucho menos completa sobre ***Python*** o el desarrollo de software, para eso tienen toda la **documentación** en los sitios oficiales, muchos ***websites*** que ofrecen ***cursos***, ***bootcamps**, canales de ***Youtube***, etc. 
+Para quien lo revise, espero les sea de utilidad algo de mi aprendizaje, anticipándoles que este repositorio contiene solo mi aprendizaje y no es una guía definitiva, mucho menos completa sobre ***Python*** o el desarrollo de software, para eso tienen toda la **documentación** en los sitios oficiales, muchos ***websites*** que ofrecen ***cursos***, ***bootcamps***, canales de ***Youtube***, etc. 
 
 ---
 

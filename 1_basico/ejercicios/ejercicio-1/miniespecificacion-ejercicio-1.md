@@ -1,6 +1,6 @@
 Este ejercicio se corresponde con las sesiones de **tutoría** correspondientes a los temas tratados en las primeras semanas, sobre los ***datos primitivos***, ***operadores*** y e***structuras de control***
 
---- markdown
+``` markdown
 inicio
 
 // Arranca el programa
@@ -57,6 +57,7 @@ ESCRIBIR "Gracias por su visita"
 
 Fin del programa
 
+```
 ---
 
 > **IMPORTANTE**

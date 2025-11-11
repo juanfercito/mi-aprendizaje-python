@@ -1,61 +1,66 @@
 Este ejercicio se corresponde con las sesiones de **tutoría** correspondientes a los temas tratados en las primeras semanas, sobre los ***datos primitivos***, ***operadores*** y e***structuras de control***
 
 ``` markdown
-inicio
+1.  inicio
 
-// Arranca el programa
-ESCRIBIR "Bienvenido a nuestro Club"
-(decide, x(3)[a-z],[BS]) <-- ESCRIBIR "¿desea ingresar?"
-LEER decide
+2.  // Arranca el programa
+3.  //ESCRIBIR "Bienvenido a nuestro Club"
+4.  (decide, x(3)[a-z],[BS]) <-- ESCRIBIR "¿desea ingresar?"
+5.  LEER decide
 
-// Verificar si la condicion se cumple
-SI decide == "si" O decide == "yes" ENTONCES
+6.  // Verificar si la condicion se cumple
+7.  SI decide == "si" O decide == "yes" ENTONCES
 
-    // inicia el ciclo While
-    MIENTRAS True
-        // ingresan los datos
-        (nombre, x(20)[a-z],[A;E;I;O;U],[BS]) <-- ESCRIBIR "¿cual es su nombre?"
-        LEER nombre
-        (edad, i[1-n]) <-- ESCRIBIR "¿cual es su edad?"
-        LEER edad
+8.      // inicia el ciclo While
+9.      MIENTRAS True
+10.         // ingresan los datos
+11.         (nombre, x(20)[a-z],[A;E;I;O;U],[BS]) <-- ESCRIBIR "¿cual es su nombre?"
+12.         LEER nombre
+13.         (edad, i[1-n]) <-- ESCRIBIR "¿cual es su edad?"
+14.         LEER edad
+15.         
+16.         // comienzan las validaciones
+17.         SI edad < 18 ENTONCES
+18.             (pase, d[0-n]) <-- edad *2 / 100
+19.             ESCRIBIR "lo sentimos " +nombre+ "no puede pasar, pero le daremos $ " +pase+ "para el bus"
+20. 
+21.         DE LO CONTRARIO
+22.             SI edad >= 18 Y edad <= 59 ENTONCES
+23.                 (pase, d[0-n]) <-- edad * 2 / 10 * 15 / 100
+24.                 ESCRIBIR "felicidades " +nombre+ ", puede pasar, son $ " +pase+
+25.             
+26.            DE LO CONTRARIO
+27.                 SI edad > 59 ENTONCES
+28.                     (pase, d[0-n]) <-- edad * 2 / 100
+29.                     ESCRIBIR "Ok " +nombre+ ", puede pasar pero debe pagar $ " +pase+
+30. 
+31.                 FIN SI
+32.             FIN SI
+33.         
+34.         FIN SI
+35. 
+36.         
+37.                 //validar si el ciclo del programa se sigue repitiendo
+38.         (repetir, x(3)[a-z],[BS]) <-- ESCRIBIR "¿desea ingresar otra vez?"
+39.         LEER repetir
+40. 
+41.         SI repetir == "si" O repetir == "yes" ENTONCES
+42.             CONTINUAR
+43. 
+44. 
+45.         DE LO CONTRARIO
+46.             INTERRUMPIR 
+47.        
+48.         FIN SI
+49.     FIN MIENTRAS
+50. 
+51. FIN SI
 
-        // comienzan las validaciones
-        SI edad < 18 ENTONCES
-            (pase, d[0-n]) <-- edad *2 / 100
-            ESCRIBIR "lo sentimos " +nombre+ "no puede pasar, pero le daremos $ " +pase+ "para el bus"
-
-        DE LO CONTRARIO
-            SI edad >= 18 Y edad <= 59 ENTONCES
-                (pase, d[0-n]) <-- edad * 2 / 10 * 15 / 100
-                ESCRIBIR "felicidades " +nombre+ ", puede pasar, son $ " +pase+
-
-            DE LO CONTRARIO
-                SI edad > 59 ENTONCES
-                    (pase, d[0-n]) <-- edad * 2 / 100
-                    ESCRIBIR "Ok " +nombre+ ", puede pasar pero debe pagar $ " +pase+
-
-                FIN SI
-            FIN SI
-        FIN SI
-
-        //validar si el ciclo del programa se sigue repitiendo
-        (repetir, x(3)[a-z],[BS]) <-- ESCRIBIR "¿desea ingresar otra vez?"
-        LEER repetir
-
-        SI repetir == "si" O repetir == "yes" ENTONCES
-            CONTINUAR
-        DE LO CONTRARIO
-            INTERRUMPIR 
-        
-        FIN SI
-    FIN MIENTRAS
-
-FIN SI
-
-// mensaje de término del programa
-ESCRIBIR "Gracias por su visita"
-
-Fin del programa
+52. 
+53. // mensaje de término del programa
+54. ESCRIBIR "Gracias por su visita"
+55. 
+56. Fin del programa
 
 ```
 ---

@@ -1,0 +1,2 @@
+2026-01-16T13:31:40.383116,jonathan lozano,esto@esto.org,CH-01,Introducción a Python
+2026-01-16T13:32:20.902676,juanito alimaña,juanito@alimaña.net,CH-03,Finanzas Personales

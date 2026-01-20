@@ -1,4 +1,7 @@
 # Menú interactivo sencillo: delega en services y persistence.
+# Importamos el modulo time para darle mayor dinamismo almenu y 
+# posibles mejoras a futuro. 
+import time
 
 from services import gestion_charlas
 from services import validaciones
@@ -92,22 +95,39 @@ def run():
     Se define explícitamente para que main.py pueda importarlo
     sin cambiar su lógica.
     """
+    print("cargando comandos...")
+    time.sleep(1)  # Simula carga de comandos
+    print('='*30)
     print(mensajes.TEXTO_BIENVENIDA)
+    print('='*30, '\n')
 
     while True:
+        time.sleep(1)  # Pequeña pausa para mejor experiencia de usuario
         print(mensajes.TEXTO_MENU)
         opcion = input('Opción: ').strip()
 
         if opcion == '1':
+            print('-'*30)
+            time.sleep(0.5)  # Pequeña pausa antes de ejecutar la opción
             opcion_inscribir()
         elif opcion == '2':
+            print('-'*30)
+            time.sleep(0.5)
             opcion_consultar_inscripciones()
         elif opcion == '3':
+            print('-'*30)
+            time.sleep(0.5)
             mostrar_charlas()
         elif opcion == '4':
+            print('-'*30)
+            time.sleep(1)
             opcion_generar_respaldo()
         elif opcion == '0':
-            print('Saliendo. Gracias.')
+            print('-'*30)
+            print('\nSaliendo del sistema...')
+            print('='*30)
+            time.sleep(1)
+            print('Gracias. Disfrute su charla!')
             break
         else:
             print('Opción no reconocida. Intente de nuevo.')

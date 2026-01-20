@@ -1,5 +1,5 @@
 # Estos son los textos utilizados en la interfaz de usuario del sistema de inscripciones.
-TEXTO_BIENVENIDA = "Bienvenido al Sistema de Inscripciones\n"
+TEXTO_BIENVENIDA = "Bienvenido al Sistema de Inscripciones"
 TEXTO_MENU = (
     "Seleccione una opción:\n"
     "1) Inscribirse en una charla\n"

@@ -138,7 +138,7 @@ Separar los datos del código fuente es una buena práctica de organización.
 ---
 
 ### 4.9 Carpeta `backup/`
-Contiene los archivos de respaldo en formato .csv (mejor recomendado) para exportación de datos a otros sistemas o basesde datos:
+Contiene los archivos de respaldo en formato .csv (mejor recomendado) para exportación de datos a otros sistemas o bases de datos:
 - `respaldo.csv`: respaldo generado desde el menú del sistema.
 
 Puede contener más archivos de respaldo con formatos diferentes para usos variados.
